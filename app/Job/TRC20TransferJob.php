@@ -77,6 +77,6 @@ class TRC20TransferJob extends Job
         if ($amount !== false) {
             var_dump(sprintf('%s => %s: %s', $this->owner_address, $this->to_address, $amount));
         }
-        sleep(2);
+        sleep(1);
     }
 }
